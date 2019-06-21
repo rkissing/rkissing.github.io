@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Portfolio Page Template</title>
+    <title>Ryan Kissinger | Index</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
 	<style>
@@ -37,8 +37,17 @@
 			max-height: 500px;
 			overflow: hidden;
 		}
+<<<<<<< HEAD
 		.ArticleImage{
 			width: 75px;
+=======
+		.SampleChap{
+			line-height: 100%;
+			font-stretch: extra-condensed;
+			overflow: hidden;
+			text-overflow: clip;
+			color: gray;
+>>>>>>> 82d44d752f31b8505c8cfd026559b4088b394c61
 		}
 		.captionblock{
 			background: hsla(0,0%,0%,0.77);
@@ -121,24 +130,34 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
        <li class="nav-item dropdown">
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Writing: TFBC
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="TFBC_Chapter_1.html">Chapter 1</a>
+			  <a class="dropdown-item" href="TFBC_Chapter_2.html">Chapter 2</a>
+			</div>
+		   
+      </li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Portfolio
 			</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
 			  <a class="dropdown-item" href="#">Artwork</a>
-			  <a class="dropdown-item" href="#">Music</a>
-			  <a class="dropdown-item" href="#">Something else here</a>
+			  <a class="dropdown-item" href="DraftingBOW.html">Drafting BOW</a>
 			</div>
+		   
       </li>
        <li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			  Projects
 			</a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="#">Project MIDAS</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+			  <a class="dropdown-item" href="ProjectMIDAS.html">Project MIDAS</a>
 			  <a class="dropdown-item" href="#">ALPS Project</a>
 			  <a class="dropdown-item" href="#">EMBER (Sr. Project)</a>
 			</div>
@@ -482,19 +501,19 @@ Amassing thermal images to expand FLIR's neural net using a commissioned FLIR Du
       <div class="col-lg-4 col-12 ChapterImage">
 		  <h4>Chapter One</h4>
 		  <div class="row">
-			<div class="col-7"><img src="tfbc_headers/title1_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <button onClick="TFBC_Chapter1.html">Read Chapter</button> <br> </div>
-		  	<div class="col-5">  </div>
+			<div class="col-7"><img src="tfbc_headers/title1_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <hr> <a href="TFBC_Chapter_1.html" role="button" type="button" class="btn btn-secondary btn-lg btn-block" aria-pressed="true">Read Chapter</a> <br> </div>
+		  	<div class="col-5 SampleChap"><p>“Why do you wear that stupid scarf when you live so close to the Compass Rose? It’s spring here, all the time,” I said, tugging on her crimson-threaded . . .</p></div>
 		  </div>
 		</div>
       <div class="col-lg-4 col-12 ChapterImage">
         <h4>Chapter Two</h4>
         <div class="row">
-		  <div class="col-7"><img src="tfbc_headers/title2_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <button onClick="TFBC_Chapter1.html">Read Chapter</button></div>
+		  <div class="col-7"><img src="tfbc_headers/title2_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <hr> <a href="TFBC_Chapter_2.html" role="button" type="button" class="btn btn-secondary btn-lg btn-block" aria-pressed="true">Read Chapter</a></div>
 			  <div class="col-5">  </div></div> </div>
 	  <div class="col-lg-4 col-12 ChapterImage">
 	    <h4>Chapter Three</h4>
 	    <div class="row">
-		  <div class="col-7"><img src="tfbc_headers/title3_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <button onClick="TFBC_Chapter1.html">Read Chapter</button></div>
+		  <div class="col-7"><img src="tfbc_headers/title3_tfbc.jpg" width="100%" class="ImageGeneral" alt=""/><br> <hr> <a href="TFBC_Chapter_3.html" role="button" type="button" class="btn btn-secondary btn-lg btn-block" aria-pressed="true">Read Chapter</a></div>
 			  <div class="col-5">  </div></div> </div>
 	</div>
 </div>
